@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome-->
+        <script src="https://kit.fontawesome.com/86a7df42d3.js" crossorigin="anonymous"></script>
+    <!--Font Awesome cdnjs-->
+        <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Compiled and minified CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+        <link rel="stylesheet" href="cwd-ia.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/png">
+        <title>Tours and Accomodation</title>
+    </head>
+
+<body>
+    <!-- Navbar with sidenav trigger -->
+    <div class="navbar-fixed">
+        <nav class="">
+            <div class="container">
+                <a href="#">
+                    <img class="brand-logo" src="logo.png" alt="Site LogoS">
+                </a>
+                <!-- Sidenav trigger for mobile view -->
+                <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about-us-section">ABOUT US</a></li>
+                    <li><a href="#Prices">PRICES</a></li>
+                    <li><a href="#Contact-Us">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sidenav menu for mobile view -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="" target="blank">HOME</a></li>
+        <li><a href="#about-us-section" target="_blank">ABOUT US</a></li>
+        <li><a href="#Prices" target="_blank">PRICES</a></li>
+        <li><a href="#Contact-Us" target="_blank">CONTACT US</a></li>
+    </ul>
+
+    <!-- Main content -->
+    <div class="content1">
+        <h1>Northern Accom with <br> Travel and Tours Services</h1>
+        <p>We offer comfortable, well-appointed accommodation designed to provide a restful and relaxing stay, coupled with exciting and immersive tours that cater to all interests. 
+            <br> Whether you're looking to unwind in a serene environment or seeking thrilling adventures, our services offer the perfect balance. <br> 
+            From scenic getaways to action-packed excursions, we ensure that your time with us is filled with unforgettable experiences and lasting memories. <br>
+             Enjoy the ideal combination of comfort, convenience, and exploration.</p>
+             <a href="https://www.facebook.com/northernaccomwithtravelandtours" target="_blank">
+                <button class="btn black-text">Message Us!</button>
+            </a>
+    </div>
+    <div class="content2" id="about-us-section">
+        <div class="container">
+            <div class="card-panel about-us-panel">
+                    <h4 class="container black-text"> About Us </h4>
+            </div>
+                    <div class="row">
+                        <!-- Video Column -->
+                        <div class="col s12 m6">
+                            <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/hNN9Q3GuWEM" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <blockquote class="disclaimer">
+                                This sample video is provided solely for demonstration purposes and is not affiliated, associated, endorsed, or connected in any way with Rex Hotel.
+                            </blockquote>
+                        </div>
+                    
+                        <!-- Text Column -->
+                        <div class="col s12 m6">
+                            <p class="text-container black-text">
+                                <strong> Northern Accom with Travel and Tours </strong> specializes in providing comfortable, centrally located accommodations and memorable tour experiences around Baguio City. Situated near the bustling Session Road and the popular SM City Baguio, their accommodations make it easy for guests to explore local attractions, vibrant markets, and cultural sites. Their tour offerings cover a range of must-see destinations, giving visitors insights into Baguio’s rich history, scenic views, and cool mountain atmosphere. Known for its commitment to guest satisfaction, Northern Accom creates a welcoming, hassle-free travel experience in one of the Philippines' most beloved cities.
+                            </p>
+                        </div>
+                    </div>
+        </div>    
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large" style="background-color: #edcfc7;">
+            <i class="material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/northernaccomwithtravelandtours" class="btn-floating" style="background-color: #edcfc7;">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" class="btn-floating" style="background-color: #edcfc7;">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" class="btn-floating" style="background-color: #edcfc7;">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- room images-->
+    <div class="content3">
+            <div class="container">
+                <div class="card-panel rooms-panel">
+                        <h4 class="container black-text"> Rooms Available </h4>
+                </div> <br>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="slider-container">
+                            <button class="prev" id="prevSlide">&#10094;</button>
+                            <div class="carousel carousel-slider center" id="imageCarousel">
+                                <a class="carousel-item"><img src="Rooms_Images/1.png" alt="Room 1"></a>
+                                <a class="carousel-item"><img src="Rooms_Images/2.png" alt="Room 2"></a>
+                                <a class="carousel-item"><img src="Rooms_Images/3.png" alt="Room 3"></a>
+                                <a class="carousel-item"><img src="Rooms_Images/4.png" alt="Room 4"></a>
+                                <a class="carousel-item"><img src="Rooms_Images/5.png" alt="Room 5"></a>
+                                <a class="carousel-item"><img src="Rooms_Images/6.png" alt="Room 6"></a>  
+                            </div>
+                            <button class="next" id="nextSlide">&#10095;</button>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+    </div>
+    <div class="content3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="image-row">
+                        <li>
+                            <img class="materialboxed" width="285" src="Rooms_Images/1.png" alt="Room 1" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 1 (Good for 2pax)</div>
+                        </li>
+                        <li>
+                            <img class="materialboxed" width="285" src="Rooms_Images/2.png" alt="Room 2" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 2 (Good for 2pax)</div>
+                        </li>
+                        <li>
+                            <img class="materialboxed" width="285" src="Rooms_Images/3.png" alt="Room 3" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 3 (Good for 4pax)</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12">
+                    <ul class="image-row">
+                        <li>
+                            <img class="materialboxed second-row" width="285" src="Rooms_Images/4.png" alt="Room 1" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 4 (Good for 4pax)</div>
+                        </li>
+                        <li>
+                            <img class="materialboxed second-row" width="285" src="Rooms_Images/5.png" alt="Room 2" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 5 (Good for 4pax)</div>
+                        </li>
+                        <li>
+                            <img class="materialboxed second-row" width="285" src="Rooms_Images/6.png" alt="Room 3" class="materialbox-responsive-img">
+                            <div class="text-container image-caption text-caption">Room 6 (Good for 2pax)</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+</div>
+<!--Room Rates-->
+<div class="content4" id="Prices">
+    <h4 class="container black-text room-rates"> Rooms Rates </h4>
+<div class="container table-style">
+    <table class="centered striped">
+        <thead>
+            <tr>
+                <th>Room No.</th>
+                <th>Weekdays Rate</th>
+                <th>Weekends Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>₱1,600/night</td>
+                <td>₱2,000/night</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>₱1,700/night</td>
+                <td>₱2,100/night</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>₱1,800/night</td>
+                <td>₱2,200/night</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>₱1,800/night</td>
+                <td>₱2,300/night</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>₱2,000/night</td>
+                <td>₱2,400/night</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>₱2,000/night</td>
+                <td>₱2,500/night</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<!--Get in Touch-->
+<div class="content5" id="Contact-Us">
+    <div class="container section get-in-touch-card">
+        <div class="row card-panel contact-card">
+            <div class="col s12 m6 l6 contact-info">
+                <h4 class="black-text get-in-touch">GET IN TOUCH</h4>
+                <p><strong><i class="fa-solid fa-location-dot"></i>
+                    MAILING ADDRESS</strong><br>
+                    Megatower Residences,<br>
+                    Sandico St. Salud Mitra Brgy.,<br>
+                    Baguio City
+                </p>
+                <p><strong><i class="fa-solid fa-envelope"></i>
+                    EMAIL ADDRESS</strong><br>
+                    hello@realestate.com
+                </p>
+                <p><strong><i class="fa-solid fa-phone"></i>
+                    PHONE NUMBER</strong><br>
+                    +63 912 345 6789
+                </p>
+                <p>Message our <a href="https://www.facebook.com/northernaccomwithtravelandtours" target="_blank"> page </a> for more details!<br>
+                </p>
+            </div>
+            <div class="col s12 m6 l6 contact-image">
+                <img src="Rooms_Images/contact-us-image.png" alt="Room Image" class="responsive-img">
+            </div>
+        </div>
+    </div>
+</div> 
+<!--Members-->
+<div class="content6">
+    <h4 class="container black-text room-rates"> PROJECT MEMBERS </h4>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l3 team-member">
+                <img src="members/m1.jpg" alt="Vanessa Isla">
+                <div class="text-container image-caption text-caption">VANESSA ISLA</div>
+            </div>
+            <div class="col s12 m6 l3 team-member">
+                <img src="members/m2.jpg" alt="Audrey Yag-at">
+                <div class="text-container image-caption text-caption">AUDREY YAG-AT</div>
+            </div>
+            <div class="col s12 m6 l3 team-member">
+                <img src="members/m3.png" alt="Mei Yin Lee">
+                <div class="text-container image-caption text-caption">MEI YIN LEE</div>
+            </div>
+            <div class="col s12 m6 l3 team-member">
+                <img src="members/m4.png" alt="Jandurc Cloma">
+                <div class="text-container image-caption text-caption">JANDURC CLOMA</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h7 class="black-text"><strong>NORTHERN ACCOM WITH TRAVEL AND TOURS SERVICES</strong></h7>
+                    <p class="black-text text-lighten-4">We provide comfortable accommodation and exciting tours, offering the perfect balance of relaxation and adventure. </p>
+                    <p>
+                        FB Account: <a href="https://www.facebook.com/baguiorentals09/" target="_blank"> Baguio Accommodation CarRentals </a> <br>
+                        FB Page: <a href="https://www.facebook.com/northernaccomwithtravelandtours" target="_blank"> Northern Accomm with Travel and Tours Services </a>
+                    </p>
+                </div>
+                <div class="col s12 m4 offset-m2">
+                    <h5 class="black-text">Links</h5>
+                    <ul>
+                        <li><a class="black-text text-lighten-3" href="#">Home</a></li>
+                        <li><a class="black-text text-lighten-3" href="#about-us-section">About Us</a></li>
+                        <li><a class="black-text text-lighten-3" href="#Prices">Prices</a></li>
+                        <li><a class="black-text text-lighten-3" href="#Contact-Us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright center">
+            <div class="container black-text">
+                Project of Group 4: CWD Batch 37 © 2024
+
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery and Materialize JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    // Initialize Materialize components
+    $(document).ready(function() {
+        $('.sidenav').sidenav({
+            edge: 'right',
+            inDuration: 1000,
+            outDuration: 1000
+        });
+        $('.tabs').tabs();
+        $('.dropdown-trigger').dropdown();
+        $('.fixed-action-btn').floatingActionButton();
+
+        // Initialize the Materialize carousel
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+
+        // Custom next/prev buttons
+        $('#prevSlide').click(function() {
+            $('.carousel').carousel('prev');
+        });
+
+        $('#nextSlide').click(function() {
+            $('.carousel').carousel('next');
+        });
+        
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+        });
+    });
+</script>
+
+</body>
+</html>
